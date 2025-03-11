@@ -22,11 +22,24 @@ import { registerLicense } from '@syncfusion/ej2-base';
 export const DocumentEditor = () => {
   return (
     <>
-      <div className="flex justify-center px-24 h-[800px] bg-gray-100 pt-12">
+      <div className="flex justify-center px-24 h-[800px] bg-gray-300 pt-12">
         <DocumentEditorContainerComponent
           height="calc(100vh - 125px)"
           serviceUrl="https://ej2services.syncfusion.com/production/web-services/api/documenteditor/"
           enableToolbar={true}
+          showPropertiesPane={false}
+          toolbarItems={[
+            'New',
+            'Open',
+            'Separator',
+            'Undo',
+            'Redo',
+            'Separator',
+            'Bookmark',
+            'Table',
+            'Separator',
+            'Find',
+          ]}
         />
       </div>
     </>
