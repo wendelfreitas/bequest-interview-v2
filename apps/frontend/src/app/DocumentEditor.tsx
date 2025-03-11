@@ -22,7 +22,7 @@ import { registerLicense } from '@syncfusion/ej2-base';
 export const DocumentEditor = () => {
   return (
     <>
-      <div className="flex justify-center px-24 h-[800px] bg-gray-300 pt-12">
+      <div className="flex justify-center px-24 bg-gray-300 pt-12 h-screen">
         <DocumentEditorContainerComponent
           height="calc(100vh - 125px)"
           serviceUrl="https://ej2services.syncfusion.com/production/web-services/api/documenteditor/"
