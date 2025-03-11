@@ -1,9 +1,9 @@
-import NxWelcome from './nx-welcome';
+import { DocumentEditor } from './DocumentEditor';
 
 export function App() {
   return (
     <div>
-      <NxWelcome title="frontend" />
+      <DocumentEditor />
     </div>
   );
 }
